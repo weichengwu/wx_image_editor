@@ -1,15 +1,22 @@
 # wx_image_editor
 
-A new Flutter plugin project.
+仿微信图片编辑控件。
 
-## Getting Started
+依赖库：
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+- iOS：[longitachi/ZLImageEditor](https://github.com/longitachi/ZLImageEditor)
+- Android: [minetsh/Imaging](https://github.com/minetsh/Imaging)
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
 
+```dart
+// setup
+WxImageEditor.setup(
+  iosEditImageTools: [...],
+  iosImageAdjustTools: [...],
+);
+
+// edit
+final path = ... // picked image path
+await WxImageEditor.editImage(path);
+```
