@@ -1,11 +1,7 @@
 name: wx_image_editor
-description: A WeChat like image editor.
-version: 0.0.2
+description: 仿微信的图片编辑器 Flutter 插件，iOS 端依赖 longitachi/ZLImageEditor，Android 端依赖 minetsh/Imaging。
+version: 0.0.3
 repository: https://github.com/weichengwu/wx_image_editor
-
-platforms:
-  android:
-  ios:
 
 environment:
   sdk: ">=2.17.1 <3.0.0"
