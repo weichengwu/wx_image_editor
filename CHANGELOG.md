@@ -1,3 +1,7 @@
+## 0.0.6
+
+* change dependency
+
 ## 0.0.5
 
 * bugfix
