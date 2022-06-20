@@ -1,3 +1,7 @@
+## 0.0.7
+
+* remove `TODO`s.
+
 ## 0.0.6
 
 * change dependency

@@ -1,6 +1,6 @@
 name: wx_image_editor
 description: 仿微信的图片编辑器 Flutter 插件，iOS 端依赖 longitachi/ZLImageEditor，Android 端依赖 minetsh/Imaging。
-version: 0.0.6
+version: 0.0.7
 repository: https://github.com/weichengwu/wx_image_editor
 
 environment:

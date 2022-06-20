@@ -78,17 +78,11 @@ class WxImageEditorPlugin : FlutterPlugin, MethodCallHandler, ActivityAware,
         binding.addActivityResultListener(this)
     }
 
-    override fun onDetachedFromActivityForConfigChanges() {
-        TODO("Not yet implemented")
-    }
+    override fun onDetachedFromActivityForConfigChanges() {}
 
-    override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {
-        TODO("Not yet implemented")
-    }
+    override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {}
 
-    override fun onDetachedFromActivity() {
-        TODO("Not yet implemented")
-    }
+    override fun onDetachedFromActivity() {}
 
     // PluginRegistry.ActivityResultListener
 
